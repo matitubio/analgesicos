@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Factura</title>
+  </head>
+  <body>
+    <div class="factura">
+      <div class="factura-nombre">
+        <p>Nombre:</p>
+        <p id="nombreCliente"></p>
+      </div>
+      <div class="factura-titulos">
+        <p>Producto</p>
+        <p>Precio</p>
+        <p>Cantidad</p>
+        <p>Total</p>
+      </div>
+      <div class="factura-productos" id="productosFactura">
+        <!-- Aquí se renderizarán los productos -->
+      </div>
+      <div class="factura-total">
+        <p>Total:</p>
+        <p id="totalFactura"></p>
+      </div>
+    </div>
+    <button id="boton-volver"><a href="./index.html">Volver</a></button>
+
+    <script>
+      const productos = [
+        {
+          nombre: "Actron600",
+          precio: 5600,
+        },
+
+        {
+          nombre: "Actron400",
+          precio: 2200,
+        },
+
+        {
+          nombre: "Alikal",
+          precio: 600,
+        },
+
+        {
+          nombre: "Amoxicilina",
+          precio: 1350,
+        },
+
+        {
+          nombre: "Amoxidal",
+          precio: 2400,
+        },
+
+        {
+          nombre: "Anaflex",
+          precio: 1900,
+        },
+
+        {
+          nombre: "Almaximo",
+          precio: 1500,
+        },
+
+        {
+          nombre: "Aspirineta",
+          precio: 700,
+        },
+
+        {
+          nombre: "Azitromicina",
+          precio: 1500,
+        },
+
+        {
+          nombre: "Bayaspirina",
+          precio: 1550,
+        },
+
+        {
+          nombre: "Buscapina",
+          precio: 5600,
+        },
+
+        {
+          nombre: "Cafiaspirina",
+          precio: 1800,
+        },
+
+        {
+          nombre: "CafiaspirinaPlus",
+          precio: 2300,
+        },
+
+        {
+          nombre: "CaramelosCAnti",
+          precio: 2500,
+        },
+
+        {
+          nombre: "Dexalergin",
+          precio: 11500,
+        },
+
+        {
+          nombre: "Diclofenac",
+          precio: 1000,
+        },
+
+        {
+          nombre: "Dorixina",
+          precio: 1400,
+        },
+
+        {
+          nombre: "Ibuprofeno600",
+          precio: 700,
+        },
+
+        {
+          nombre: "IbuevanolRap.Acc",
+          precio: 2000,
+        },
+
+        {
+          nombre: "IbuevanolPlus",
+          precio: 2200,
+        },
+
+        {
+          nombre: "Keterolac",
+          precio: 600,
+        },
+
+        {
+          nombre: "Loratadina",
+          precio: 900,
+        },
+
+        {
+          nombre: "Mejoralito",
+          precio: 1850,
+        },
+
+        {
+          nombre: "Migral",
+          precio: 3750,
+        },
+
+        {
+          nombre: "Mylanta",
+          precio: 2100,
+        },
+
+        {
+          nombre: "Next",
+          precio: 3300,
+        },
+
+        {
+          nombre: "Novalagina",
+          precio: 4900,
+        },
+
+        {
+          nombre: "Omeprazol",
+          precio: 600,
+        },
+
+        {
+          nombre: "PastillaDeCarbon",
+          precio: 600,
+        },
+
+        {
+          nombre: "Ponstil",
+          precio: 1350,
+        },
+
+        {
+          nombre: "Quraplus",
+          precio: 3100,
+        },
+
+        {
+          nombre: "Refrianex",
+          precio: 3300,
+        },
+
+        {
+          nombre: "SildenafilVENT3x30",
+          precio: 6500,
+        },
+
+        {
+          nombre: "SertalPerla",
+          precio: 3700,
+          // 2290
+        },
+
+        {
+          nombre: "SertalCompuesto",
+          precio: 4900,
+          // 3310
+        },
+
+        {
+          nombre: "Sindol600",
+          precio: 2350,
+        },
+
+        {
+          nombre: "Tafirol1g",
+          precio: 1900,
+        },
+
+        {
+          nombre: "Tafirol500mg",
+          precio: 1800,
+        },
+
+        {
+          nombre: "TafirolPlus",
+          precio: 2700,
+        },
+
+        {
+          nombre: "TafirolFlex",
+          precio: 2000,
+        },
+
+        {
+          nombre: "TafirolMigra",
+          precio: 3600,
+        },
+
+        {
+          nombre: "Tafirolito",
+          precio: 3200,
+        },
+
+        {
+          nombre: "TeVick",
+          precio: 1500,
+        },
+
+        {
+          nombre: "TeVENT3",
+          precio: 700,
+        },
+
+        {
+          nombre: "TeRolfita",
+          precio: 450,
+        },
+
+        {
+          nombre: "Uvasal",
+          precio: 400,
+        },
+
+        {
+          nombre: "Curitas",
+          precio: 500,
+        },
+
+        {
+          nombre: "Enc.CANDELAx25",
+          precio: 8000,
+        },
+
+        {
+          nombre: "Rep.911",
+          precio: 3500,
+        },
+
+        {
+          nombre: "OFF.Crema",
+          precio: 3500,
+        },
+      ];
+      // Función para obtener parámetros de la cadena de consulta
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+      // Obtener parámetros de la cadena de consulta
+      const nombreCliente = getParameterByName("nombre");
+      const cantidades = {};
+
+      // Obtener la cantidad de cada producto
+      productos.forEach((producto) => {
+        const cantidad = getParameterByName(
+          producto.nombre.replace(/\s/g, "_")
+        ); // Reemplazar espacios por guiones bajos para la comparación
+        if (cantidad) {
+          cantidades[producto.nombre] = cantidad;
+        }
+      });
+
+      console.log("Nombre del Cliente:", nombreCliente);
+      console.log("Cantidades:", cantidades);
+
+      // Renderizar la información en la página
+      document.getElementById("nombreCliente").textContent = nombreCliente;
+
+      const productosFactura = document.getElementById("productosFactura");
+      const totalFactura = document.getElementById("totalFactura");
+      let total = 0;
+
+      console.log("Cadena de Consulta:", window.location.search);
+
+      for (const [producto, cantidad] of Object.entries(cantidades)) {
+        const productoInfo = productos.find((p) => p.nombre === producto);
+        const precioUnitario = productoInfo.precio;
+        const totalProducto = precioUnitario * cantidad;
+        total += totalProducto;
+
+        const divProducto = document.createElement("div");
+        divProducto.classList.add("producto-factura");
+
+        const pProducto = document.createElement("p");
+        pProducto.textContent = `${producto}`;
+
+        const pPrecioUnitario = document.createElement("p");
+        pPrecioUnitario.textContent = `$${precioUnitario.toFixed(2)}`;
+
+        const pCantidad = document.createElement("p");
+        pCantidad.textContent = `${cantidad}`;
+
+        const pTotal = document.createElement("p");
+        pTotal.textContent = `$${totalProducto.toFixed(2)}`;
+
+        divProducto.appendChild(pProducto);
+        divProducto.appendChild(pPrecioUnitario);
+        divProducto.appendChild(pCantidad);
+        divProducto.appendChild(pTotal);
+
+        productosFactura.appendChild(divProducto);
+      }
+
+      console.log("Total Factura:", total);
+      totalFactura.textContent = `$${total.toFixed(2)}`;
+    </script>
+  </body>
+</html>

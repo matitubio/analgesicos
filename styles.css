@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif:wght@100;200;300;400&family=Open+Sans:wght@300;400;600&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1e434c;
+}
+
+body h1 {
+  color: #ccc;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 2px; */
+}
+
+.producto {
+  background-color: #ccc;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%; /* Ajusta según sea necesario, deja espacio para márgenes y rellenos */
+  margin: 5px; /* Espacio entre productos */
+}
+
+.producto p {
+  width: 60px; /* Puedes ajustar este valor según tus necesidades */
+  margin-top: 5px; /* Espacio entre el nombre y el precio */
+}
+
+/* Estilo adicional para el nombre del producto */
+.producto h4 {
+  margin-bottom: 5px;
+}
+
+#boton-comprar {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+/* Factura */
+
+.factura {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.factura-nombre {
+  color: #ccc;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+#nombreCliente {
+  font-weight: 700;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.factura-titulos {
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 50px; */
+  padding: 10px;
+}
+
+.factura-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.factura-total {
+  background-color: #ccc;
+  display: flex;
+  gap: 20px;
+  padding: 0.6rem;
+}
+
+.producto-factura {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 50px; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+}
+
+#boton-volver {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.sugerido {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .factura-productos {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .factura-productos {
+    overflow-y: auto;
+    max-height: 80vh; /* Esto establece la altura máxima del contenedor al 80% de la altura del viewport */
+  }
+}
