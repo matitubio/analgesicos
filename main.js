@@ -86,7 +86,7 @@ const productos = [
 
   {
     nombre: "Ibuprofeno600",
-    precio: 700,
+    precio: 1000,
   },
 
   {
