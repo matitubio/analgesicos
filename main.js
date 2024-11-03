@@ -197,6 +197,11 @@ const productos = [
   },
 
   {
+    nombre: "TafirolResaca",
+    precio: 3000,
+  },
+
+  {
     nombre: "TafirolFlex",
     precio: 2000,
   },
@@ -239,6 +244,16 @@ const productos = [
   {
     nombre: "Enc.CANDELAx25",
     precio: 8000,
+  },
+
+  {
+    nombre: "Enc.BICx12",
+    precio: 9000,
+  },
+
+  {
+    nombre: "PRIMEx24",
+    precio: 40800,
   },
 
   {
