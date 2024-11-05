@@ -110,6 +110,11 @@ const productos = [
   },
 
   {
+    nombre: "Loperamida",
+    precio: 900,
+  },
+
+  {
     nombre: "Mejoralito",
     precio: 1850,
   },
@@ -252,8 +257,8 @@ const productos = [
   },
 
   {
-    nombre: "PRIMEx24",
-    precio: 40800,
+    nombre: "Pres.PRIME",
+    precio: 1700,
   },
 
   {
@@ -305,6 +310,7 @@ const cargarProductos = () => {
         <option>14</option>
         <option>15</option>
         <option>20</option>
+        <option>24</option>
         <option>25</option>
         <option>30</option>
         <option>60</option>
