@@ -1,12 +1,12 @@
 const productos = [
   {
     nombre: "Actron600",
-    precio: 5600,
+    precio: 5700,
   },
 
   {
     nombre: "Actron400",
-    precio: 2200,
+    precio: 2300,
   },
 
   {
@@ -46,12 +46,12 @@ const productos = [
 
   {
     nombre: "Bayaspirina",
-    precio: 1550,
+    precio: 1600,
   },
 
   {
     nombre: "Buscapina",
-    precio: 5600,
+    precio: 5800,
   },
 
   {
@@ -61,7 +61,7 @@ const productos = [
 
   {
     nombre: "CafiaspirinaPlus",
-    precio: 2300,
+    precio: 2400,
   },
 
   {
@@ -101,7 +101,7 @@ const productos = [
 
   {
     nombre: "Keterolac",
-    precio: 600,
+    precio: 800,
   },
 
   {
@@ -116,12 +116,12 @@ const productos = [
 
   {
     nombre: "Mejoralito",
-    precio: 1850,
+    precio: 2000,
   },
 
   {
     nombre: "Migral",
-    precio: 3750,
+    precio: 3900,
   },
 
   {
@@ -141,17 +141,17 @@ const productos = [
 
   {
     nombre: "Omeprazol",
-    precio: 600,
+    precio: 700,
   },
 
   {
     nombre: "PastillaDeCarbon",
-    precio: 600,
+    precio: 700,
   },
 
   {
     nombre: "Ponstil",
-    precio: 1350,
+    precio: 1400,
   },
 
   {
@@ -183,7 +183,7 @@ const productos = [
 
   {
     nombre: "Sindol600",
-    precio: 2350,
+    precio: 2400,
   },
 
   {
