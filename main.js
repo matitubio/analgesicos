@@ -96,7 +96,7 @@ const productos = [
 
 {
  nombre: "IbuevanolForte",
- precio: 2200,
+ precio: 2400,
 },
 
 {
@@ -203,7 +203,7 @@ const productos = [
 
 {
  nombre: "TafirolDuo",
- precio: 3000,
+ precio: 2400,
 },
 
 {
