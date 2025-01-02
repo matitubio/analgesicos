@@ -1,269 +1,247 @@
 const productos = [
   {
- nombre: "Actron600",
- precio: 5700,
+nombre: "Actron600",
+precio: 5700,
 },
 
 {
- nombre: "Actron400",
- precio: 2300,
+nombre: "Actron400",
+precio: 2300,
 },
 
 {
- nombre: "Alikal",
- precio: 600,
+nombre: "Alikal",
+precio: 700,
 },
 
 {
- nombre: "Amoxicilina",
- precio: 1350,
+nombre: "Amoxidal",
+precio: 2400,
 },
 
 {
- nombre: "Amoxidal",
- precio: 2400,
+nombre: "Almaximo",
+precio: 2500,
 },
 
 {
- nombre: "Almaximo",
- precio: 2500,
+nombre: "Aspirineta",
+precio: 700,
 },
 
 {
- nombre: "Aspirineta",
- precio: 700,
+nombre: "Azitromicina",
+precio: 1500,
 },
 
 {
- nombre: "Azitromicina",
- precio: 1500,
+nombre: "Bayaspirina",
+precio: 1600,
 },
 
 {
- nombre: "Bayaspirina",
- precio: 1600,
+nombre: "Buscapina",
+precio: 5900,
 },
 
 {
- nombre: "Buscapina",
- precio: 5800,
+nombre: "Cafiaspirina",
+precio: 1900,
 },
 
 {
- nombre: "Cafiaspirina",
- precio: 1800,
+nombre: "CafiaspirinaPlus",
+precio: 2400,
 },
 
 {
- nombre: "CafiaspirinaPlus",
- precio: 2400,
+nombre: "CaramelosCAnti",
+precio: 2500,
 },
 
 {
- nombre: "CaramelosCAnti",
- precio: 2500,
+nombre: "Dexalergin",
+precio: 11500,
 },
 
 {
- nombre: "Dexalergin",
- precio: 11500,
+nombre: "Diclofenac",
+precio: 1000,
 },
 
 {
- nombre: "Diclofenac",
- precio: 1000,
+nombre: "Dorixina",
+precio: 1600,
 },
 
 {
- nombre: "Dorixina",
- precio: 1400,
+nombre: "Ibuprofeno600",
+precio: 1000,
 },
 
 {
- nombre: "Ibuprofeno600",
- precio: 1000,
+nombre: "IbuevanolRap.Acc",
+precio: 2000,
 },
 
 {
- nombre: "IbuevanolRap.Acc",
- precio: 2000,
+nombre: "IbuevanolPlus",
+precio: 2200,
 },
 
 {
- nombre: "IbuevanolPlus",
- precio: 2200,
+nombre: "IbuevanolForte",
+precio: 2400,
 },
 
 {
- nombre: "IbuevanolForte",
- precio: 2400,
+nombre: "Keterolac",
+precio: 800,
 },
 
 {
- nombre: "Keterolac",
- precio: 800,
+nombre: "Loratadina",
+precio: 900,
 },
 
 {
- nombre: "Loratadina",
- precio: 900,
+nombre: "Loperamida",
+precio: 900,
 },
 
 {
- nombre: "Loperamida",
- precio: 900,
+nombre: "Mejoralito",
+precio: 2000,
 },
 
 {
- nombre: "Mejoralito",
- precio: 2000,
+nombre: "Migral",
+precio: 3900,
 },
 
 {
- nombre: "Migral",
- precio: 3900,
+nombre: "Novalagina",
+precio: 4900,
 },
 
 {
- nombre: "Mylanta",
- precio: 2100,
+nombre: "Omeprazol",
+precio: 800,
 },
 
 {
- nombre: "Novalagina",
- precio: 4900,
+nombre: "PastillaDeCarbon",
+precio: 700,
 },
 
 {
- nombre: "Omeprazol",
- precio: 700,
+nombre: "Ponstil",
+precio: 1400,
 },
 
 {
- nombre: "PastillaDeCarbon",
- precio: 700,
+nombre: "Quraplus",
+precio: 3200,
 },
 
 {
- nombre: "Ponstil",
- precio: 1400,
+nombre: "Refrianex",
+precio: 3300,
 },
 
 {
- nombre: "Quraplus",
- precio: 3100,
+nombre: "SildenafilVENT3",
+precio: 6500,
 },
 
 {
- nombre: "Refrianex",
- precio: 3300,
+nombre: "SertalPerla",
+precio: 3700,
 },
 
 {
- nombre: "SildenafilVENT3x20",
- precio: 6500,
+nombre: "SertalCompuesto",
+precio: 5000,
 },
 
 {
- nombre: "SertalPerla",
- precio: 3700,
- // 2290
+nombre: "Fabogesic600",
+precio: 2300,
 },
 
 {
- nombre: "SertalCompuesto",
- precio: 4900,
- // 3310
+nombre: "Tafirol1g",
+precio: 1900,
 },
 
 {
- nombre: "Fabogesic600",
- precio: 2300,
+nombre: "Tafirol500mg",
+precio: 1900,
 },
 
 {
- nombre: "Tafirol1g",
- precio: 1900,
+nombre: "TafirolPlus",
+precio: 2900,
 },
 
 {
- nombre: "Tafirol500mg",
- precio: 1800,
+nombre: "TafirolResaca",
+precio: 3000,
 },
 
 {
- nombre: "TafirolPlus",
- precio: 2700,
+nombre: "TafirolDuo",
+precio: 2400,
 },
 
 {
- nombre: "TafirolResaca",
- precio: 3000,
+nombre: "TeVick",
+precio: 1500,
 },
 
 {
- nombre: "TafirolDuo",
- precio: 2400,
+nombre: "TeVENT3",
+precio: 700,
 },
 
 {
- nombre: "TafirolMigra",
- precio: 3600,
+nombre: "TeRolfita",
+precio: 500,
 },
 
 {
- nombre: "Tafirolito",
- precio: 3200,
+nombre: "Uvasal",
+precio: 400,
 },
 
 {
- nombre: "TeVick",
- precio: 1500,
+nombre: "Curitas",
+precio: 500,
 },
 
 {
- nombre: "TeVENT3",
- precio: 700,
+nombre: "Enc.CANDELAx25",
+precio: 8000,
 },
 
 {
- nombre: "TeRolfita",
- precio: 450,
+nombre: "MiniBICx12",
+precio: 9000,
 },
 
 {
- nombre: "Uvasal",
- precio: 400,
+nombre: "Pres.PRIME",
+precio: 1700,
 },
 
 {
- nombre: "Curitas",
- precio: 500,
+nombre: "Rep.911",
+precio: 3500,
 },
 
 {
- nombre: "Enc.CANDELAx25",
- precio: 8000,
-},
-
-{
- nombre: "MiniBICx12",
- precio: 9000,
-},
-
-{
- nombre: "Pres.PRIME",
- precio: 1700,
-},
-
-{
- nombre: "Rep.911",
- precio: 3500,
-},
-
-{
- nombre: "OFF.Crema",
- precio: 3500,
+nombre: "OFF.Crema",
+precio: 3500,
 },
 ];
 
