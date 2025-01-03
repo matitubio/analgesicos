@@ -95,6 +95,11 @@ precio: 2400,
 },
 
 {
+nombre: "IbuevanolMax",
+precio: 3200,
+},
+
+{
 nombre: "Keterolac",
 precio: 800,
 },
@@ -166,7 +171,7 @@ precio: 5000,
 
 {
 nombre: "Fabogesic600",
-precio: 2300,
+precio: 2500,
 },
 
 {
@@ -212,6 +217,11 @@ precio: 500,
 {
 nombre: "Uvasal",
 precio: 400,
+},
+
+{
+nombre: "Ovulol",
+precio: 3000,
 },
 
 {
