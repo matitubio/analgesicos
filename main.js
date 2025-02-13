@@ -1,7 +1,7 @@
 const productos = [
   {
 nombre: "Actron600",
-precio: 5700,
+precio: 5900,
 },
 
 {
@@ -116,7 +116,7 @@ precio: 900,
 
 {
 nombre: "Mejoralito",
-precio: 2000,
+precio: 2300,
 },
 
 {
