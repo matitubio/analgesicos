@@ -41,7 +41,7 @@ precio: 1600,
 
 {
 nombre: "Buscapina",
-precio: 5900,
+precio: 6000,
 },
 
 {
@@ -81,7 +81,7 @@ precio: 1000,
 
 {
 nombre: "IbuevanolRap.Acc",
-precio: 2000,
+precio: 2100,
 },
 
 {
@@ -91,12 +91,12 @@ precio: 2200,
 
 {
 nombre: "IbuevanolForte",
-precio: 2400,
+precio: 2500,
 },
 
 {
 nombre: "IbuevanolMax",
-precio: 3200,
+precio: 3300,
 },
 
 {
@@ -141,12 +141,12 @@ precio: 700,
 
 {
 nombre: "Ponstil",
-precio: 1400,
+precio: 1600,
 },
 
 {
 nombre: "Quraplus",
-precio: 3200,
+precio: 3300,
 },
 
 {
