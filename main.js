@@ -210,9 +210,9 @@ precio: 700,
 },
 
 {
-nombre: "TeRolfita",
-precio: 500,
-},
+  nombre: "TeRolfita",
+  precio: 800,
+  },
 
 {
 nombre: "Uvasal",
