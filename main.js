@@ -196,7 +196,7 @@ precio: 3500,
 
 {
 nombre: "TafirolDuo",
-precio: 2400,
+precio: 3100,
 },
 
 {
@@ -205,8 +205,13 @@ precio: 1500,
 },
 
 {
+  nombre: "BayaC",
+  precio: 1200,
+  },
+
+{
 nombre: "TeVENT3",
-precio: 700,
+precio: 1200,
 },
 
 {
