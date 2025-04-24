@@ -229,6 +229,11 @@ nombre: "Ovulol",
 precio: 3000,
 },
 
+ {
+    nombre: "IbuPediatrico",
+    precio: 2500,
+    },
+
 {
 nombre: "Curitas",
 precio: 500,
