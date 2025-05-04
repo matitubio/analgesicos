@@ -1,7 +1,7 @@
 const productos = [
   {
 nombre: "Actron600",
-precio: 5900,
+precio: 6100,
 },
 
 {
@@ -31,12 +31,12 @@ precio: 700,
 
 {
 nombre: "Azitromicina",
-precio: 1500,
+precio: 1900,
 },
 
 {
 nombre: "Bayaspirina",
-precio: 1600,
+precio: 1700,
 },
 
 {
@@ -46,12 +46,12 @@ precio: 6000,
 
 {
 nombre: "Cafiaspirina",
-precio: 1900,
+precio: 2000,
 },
 
 {
 nombre: "CafiaspirinaPlus",
-precio: 2400,
+precio: 2500,
 },
 
 {
@@ -146,7 +146,7 @@ precio: 1600,
 
 {
 nombre: "Quraplus",
-precio: 3300,
+precio: 3400,
 },
 
 {
@@ -161,17 +161,17 @@ precio: 6500,
 
 {
 nombre: "SertalPerla",
-precio: 3700,
+precio: 3800,
 },
 
 {
 nombre: "SertalCompuesto",
-precio: 5000,
+precio: 5100,
 },
 
 {
 nombre: "Fabogesic600",
-precio: 2500,
+precio: 2600,
 },
 
 {
@@ -186,7 +186,7 @@ precio: 1900,
 
 {
 nombre: "TafirolPlus",
-precio: 2900,
+precio: 3000,
 },
 
 {
