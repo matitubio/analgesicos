@@ -31,7 +31,7 @@ precio: 700,
 
 {
 nombre: "Azitromicina",
-precio: 1900,
+precio: 2000,
 },
 
 {
@@ -201,7 +201,7 @@ precio: 3100,
 
 {
 nombre: "TeVick",
-precio: 1500,
+precio: 2100,
 },
 
 {
@@ -241,12 +241,12 @@ precio: 500,
 
 {
 nombre: "Enc.CANDELAx25",
-precio: 8000,
+precio: 7000,
 },
 
 {
-nombre: "MiniBICx12",
-precio: 9000,
+nombre: "Enc.Volcanx50",
+precio: 10000,
 },
 
 {
