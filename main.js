@@ -70,6 +70,11 @@ precio: 1000,
 },
 
 {
+nombre: "DiclocPiri",
+precio: 1500,
+},
+
+{
 nombre: "Dorixina",
 precio: 1600,
 },
@@ -105,6 +110,11 @@ precio: 1000,
 },
 
 {
+nombre: "Laxante",
+precio: 3300,
+},
+
+{
 nombre: "Loratadina",
 precio: 1000,
 },
@@ -122,6 +132,11 @@ precio: 2300,
 {
 nombre: "Migral",
 precio: 3900,
+},
+
+{
+nombre: "Mylanta",
+precio: 2700,
 },
 
 {
@@ -200,24 +215,24 @@ precio: 3100,
 },
 
 {
+nombre: "TeRolfita",
+precio: 800,
+},
+
+{
 nombre: "TeVick",
 precio: 2100,
 },
 
 {
-  nombre: "BayaC",
-  precio: 1200,
-  },
+nombre: "BayaC",
+precio: 1200,
+},
 
 {
 nombre: "TeVENT3",
 precio: 1200,
 },
-
-{
-  nombre: "TeRolfita",
-  precio: 800,
-  },
 
 {
 nombre: "Uvasal",
@@ -229,10 +244,10 @@ nombre: "Ovulol",
 precio: 3000,
 },
 
- {
-    nombre: "IbuPediatrico",
-    precio: 2500,
-    },
+{
+nombre: "IbuPediatrico",
+precio: 2500,
+},
 
 {
 nombre: "Curitas",
