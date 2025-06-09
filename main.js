@@ -16,7 +16,7 @@ precio: 700,
 
 {
 nombre: "Amoxidal",
-precio: 2400,
+precio: 2500,
 },
 
 {
@@ -51,12 +51,12 @@ precio: 2000,
 
 {
 nombre: "CafiaspirinaPlus",
-precio: 2500,
+precio: 2700,
 },
 
 {
 nombre: "CaramelosCAnti",
-precio: 2500,
+precio: 2600,
 },
 
 {
@@ -76,7 +76,7 @@ precio: 1500,
 
 {
 nombre: "Dorixina",
-precio: 1600,
+precio: 2000,
 },
 
 {
@@ -91,7 +91,7 @@ precio: 2100,
 
 {
 nombre: "IbuevanolPlus",
-precio: 2200,
+precio: 2300,
 },
 
 {
@@ -126,7 +126,7 @@ precio: 1000,
 
 {
 nombre: "Mejoralito",
-precio: 2300,
+precio: 2500,
 },
 
 {
@@ -141,7 +141,7 @@ precio: 2700,
 
 {
 nombre: "Novalagina",
-precio: 4900,
+precio: 5100,
 },
 
 {
@@ -161,27 +161,27 @@ precio: 1600,
 
 {
 nombre: "Quraplus",
-precio: 3400,
+precio: 3500,
 },
 
 {
 nombre: "Refrianex",
-precio: 3300,
+precio: 3400,
 },
 
 {
 nombre: "SildenafilVENT3",
-precio: 6500,
+precio: 8000,
 },
 
 {
 nombre: "SertalPerla",
-precio: 3800,
+precio: 3900,
 },
 
 {
 nombre: "SertalCompuesto",
-precio: 5100,
+precio: 5200,
 },
 
 {
