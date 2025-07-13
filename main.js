@@ -176,12 +176,12 @@ precio: 8000,
 
 {
 nombre: "SertalPerla",
-precio: 3900,
+precio: 4000,
 },
 
 {
 nombre: "SertalCompuesto",
-precio: 5200,
+precio: 5300,
 },
 
 {
