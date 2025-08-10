@@ -1,7 +1,7 @@
 const productos = [
   {
 nombre: "Actron600",
-precio: 6300,
+precio: 6500,
 },
 
 {
@@ -16,7 +16,7 @@ precio: 700,
 
 {
 nombre: "Amoxidal",
-precio: 2500,
+precio: 2600,
 },
 
 {
@@ -26,7 +26,7 @@ precio: 2500,
 
 {
 nombre: "Aspirineta",
-precio: 700,
+precio: 800,
 },
 
 {
@@ -41,7 +41,7 @@ precio: 1800,
 
 {
 nombre: "Buscapina",
-precio: 6000,
+precio: 6200,
 },
 
 {
@@ -61,7 +61,7 @@ precio: 2800,
 
 {
 nombre: "Dexalergin",
-precio: 11500,
+precio: 12000,
 },
 
 {
@@ -86,7 +86,7 @@ precio: 1000,
 
 {
 nombre: "IbuevanolRap.Acc",
-precio: 2100,
+precio: 2200,
 },
 
 {
@@ -101,7 +101,7 @@ precio: 2500,
 
 {
 nombre: "IbuevanolMax",
-precio: 3300,
+precio: 3400,
 },
 
 {
@@ -111,7 +111,7 @@ precio: 1000,
 
 {
 nombre: "Laxante",
-precio: 3300,
+precio: 3500,
 },
 
 {
@@ -131,12 +131,12 @@ precio: 2500,
 
 {
 nombre: "Migral",
-precio: 3900,
+precio: 4000,
 },
 
 {
 nombre: "Mylanta",
-precio: 2700,
+precio: 2900,
 },
 
 {
@@ -156,7 +156,7 @@ precio: 800,
 
 {
 nombre: "Ponstil",
-precio: 1600,
+precio: 1700,
 },
 
 {
@@ -166,12 +166,12 @@ precio: 3500,
 
 {
 nombre: "Refrianex",
-precio: 3400,
+precio: 3500,
 },
 
 {
 nombre: "SildenafilVENT3",
-precio: 8000,
+precio: 9000,
 },
 
 {
@@ -181,7 +181,7 @@ precio: 4000,
 
 {
 nombre: "SertalCompuesto",
-precio: 5300,
+precio: 5500,
 },
 
 {
@@ -191,12 +191,12 @@ precio: 2700,
 
 {
 nombre: "Geniol",
-precio: 1700,
+precio: 1500,
 },
 
 {
 nombre: "Tafirol1g",
-precio: 1900,
+precio: 2000,
 },
 
 {
@@ -211,12 +211,12 @@ precio: 3000,
 
 {
 nombre: "TafirolResaca",
-precio: 3500,
+precio: 3600,
 },
 
 {
 nombre: "TafirolDuo",
-precio: 3100,
+precio: 3200,
 },
 
 {
