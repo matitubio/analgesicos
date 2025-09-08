@@ -261,7 +261,7 @@ precio: 2500,
 
 {
 nombre: "Curitas",
-precio: 500,
+precio: 700,
 },
 
 {
