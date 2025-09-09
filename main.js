@@ -6,7 +6,7 @@ precio: 6500,
 
 {
 nombre: "Actron400",
-precio: 2400,
+precio: 2500,
 },
 
 {
@@ -41,7 +41,7 @@ precio: 1800,
 
 {
 nombre: "Buscapina",
-precio: 6200,
+precio: 6300,
 },
 
 {
@@ -56,7 +56,7 @@ precio: 2800,
 
 {
 nombre: "CaramelosCAnti",
-precio: 2800,
+precio: 3000,
 },
 
 {
@@ -66,7 +66,7 @@ precio: 12000,
 
 {
 nombre: "Diclofenac",
-precio: 1000,
+precio: 1200,
 },
 
 {
@@ -81,7 +81,7 @@ precio: 2000,
 
 {
 nombre: "Ibuprofeno600",
-precio: 1000,
+precio: 1200,
 },
 
 {
@@ -91,22 +91,22 @@ precio: 2200,
 
 {
 nombre: "IbuevanolPlus",
-precio: 2300,
+precio: 2400,
 },
 
 {
 nombre: "IbuevanolForte",
-precio: 2500,
+precio: 2600,
 },
 
 {
 nombre: "IbuevanolMax",
-precio: 3400,
+precio: 3500,
 },
 
 {
 nombre: "Keterolac",
-precio: 1000,
+precio: 1100,
 },
 
 {
@@ -146,12 +146,12 @@ precio: 5100,
 
 {
 nombre: "Omeprazol",
-precio: 1000,
+precio: 1200,
 },
 
 {
 nombre: "PastillaDeCarbon",
-precio: 800,
+precio: 1000,
 },
 
 {
@@ -181,12 +181,12 @@ precio: 4000,
 
 {
 nombre: "SertalCompuesto",
-precio: 5500,
+precio: 5600,
 },
 
 {
 nombre: "Fabogesic600",
-precio: 2700,
+precio: 2800,
 },
 
 {
@@ -201,7 +201,7 @@ precio: 2000,
 
 {
 nombre: "Tafirol500mg",
-precio: 1900,
+precio: 2000,
 },
 
 {
@@ -211,12 +211,12 @@ precio: 3000,
 
 {
 nombre: "TafirolResaca",
-precio: 3600,
+precio: 4000,
 },
 
 {
 nombre: "TafirolDuo",
-precio: 3200,
+precio: 3400,
 },
 
 {
@@ -246,7 +246,7 @@ precio: 900,
 
 {
 nombre: "Uvasal",
-precio: 400,
+precio: 500,
 },
 
 {
