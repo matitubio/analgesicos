@@ -45,6 +45,11 @@ precio: 6300,
 },
 
 {
+nombre: "BuscapinaComp",
+precio: 5000,
+},
+
+{
 nombre: "Cafiaspirina",
 precio: 2100,
 },
@@ -72,6 +77,11 @@ precio: 1200,
 {
 nombre: "DiclocPiri",
 precio: 1500,
+},
+
+{
+nombre: "DiclocB12",
+precio: 2800,
 },
 
 {
@@ -261,7 +271,7 @@ precio: 2500,
 
 {
 nombre: "Curitas",
-precio: 700,
+precio: 800,
 },
 
 {
